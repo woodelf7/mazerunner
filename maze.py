@@ -25,3 +25,4 @@ for line in maze:
 #if " " == E:
     #print "You made it to the end of the maze!"
 
+#f.seek(0)
