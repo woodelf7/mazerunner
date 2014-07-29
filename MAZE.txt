@@ -1,7 +1,7 @@
-XXXXXXXXXXXXXXXXXXXXXXXXXXXXXX            
-s                            X            
+XXXXXXXXXXXXXXXXXXXXXXXXXXXXXX                       
+P                            X                       
 XXXXXXX XXXXXXXXXXXXXXXXXXXX X    XXXXXXXX
-      X X       XXXXXXX    X X    X      w
+      X X       XXXXXXX    X X    X      W
       X X       X     X    X X    X XXXXXX 
   XXXXX XXXXXXXXX XXX X    X X    X X     
   X               X X X XXXX XXXXXX XXXXXX

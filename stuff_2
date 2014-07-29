@@ -1,0 +1,477 @@
+Python 2.7.2 (default, Jun 12 2011, 15:08:59) [MSC v.1500 32 bit (Intel)] on win32
+Type "copyright", "credits" or "license()" for more information.
+>>> ================================ RESTART ================================
+>>> 
+>>> player_name
+<function player_name at 0x02A71D70>
+>>> player_name()
+Enter your nameSarah
+'WelcomeSarah'
+>>> ================================ RESTART ================================
+>>> 
+>>> mazerunner()
+Enter your nameSarah
+'WelcomeSarah'
+>>> ================================ RESTART ================================
+>>> 
+>>> mazerunner()
+Enter your name:Sarah
+'Welcome Sarah'
+>>> ================================ RESTART ================================
+>>> 
+>>> ================================ RESTART ================================
+>>> 
+>>> mazefixer(f)
+
+Traceback (most recent call last):
+  File "<pyshell#4>", line 1, in <module>
+    mazefixer(f)
+NameError: name 'f' is not defined
+>>> mazefixer
+<function mazefixer at 0x02B114F0>
+>>> mazefixer(f)
+
+Traceback (most recent call last):
+  File "<pyshell#6>", line 1, in <module>
+    mazefixer(f)
+NameError: name 'f' is not defined
+>>> mazefixer('MAZE.txt")
+	  
+SyntaxError: EOL while scanning string literal
+>>>  mazefixer('MAZE.txt')
+ 
+  File "<pyshell#8>", line 1
+    mazefixer('MAZE.txt')
+   ^
+IndentationError: unexpected indent
+>>> mazefixer('MAZE.txt')
+>>> 
+>>> ================================ RESTART ================================
+>>> 
+>>> mazefixer('MAZE.txt')
+
+Traceback (most recent call last):
+  File "<pyshell#11>", line 1, in <module>
+    mazefixer('MAZE.txt')
+TypeError: mazefixer() takes no arguments (1 given)
+>>> mazefixer
+<function mazefixer at 0x02B014F0>
+>>> mazefixer()
+['XXXXXXXXXXXXXXXXXXXXXXXXXXXXXX            ', 's                            X            ', 'XXXXXXX XXXXXXXXXXXXXXXXXXXX X    XXXXXXXX', '      X X       XXXXXXX    X X    X      w', '      X X       X     X    X X    X XXXXXX ', '  XXXXX XXXXXXXXX XXX X    X X    X X     ', '  X               X X X XXXX XXXXXX XXXXXX', '  X XXXXXXXXXXX XXX X X X                X  ', '  X X         X X   X XXXXXXXXXXXX XXXXXXX  ', '  XWX         X X   X            X X   X X', '              X X   X XXXXXXXXXX X X   X X', '              X X   X X        X X X   X X', '  XXXXXXXXXXXXX XXXXX XXXXXXXXXX X XXXXX X', '  X                                      X', '  X XXXXXXXXXXX XXXXXXX XXXXXXXXXX XXXXXXX ', '  X X    XMX  X X     X X        X X      ', '  X X    X X  X X  XXXX XXXXXXXXXX XXXXXXX', '  X XXXXXX X  X X  M                     X', '  X        X  X XXXXXXXXXXXXXXXXXXXXXXXX X', '  XXXXXXXXXX  X       W                X X', '              XXXXXXXXX                XEX']
+>>> ================================ RESTART ================================
+>>> 
+XXXXXXXXXXXXXXXXXXXXXXXXXXXXXX            
+s                            X            
+XXXXXXX XXXXXXXXXXXXXXXXXXXX X    XXXXXXXX
+      X X       XXXXXXX    X X    X      w
+      X X       X     X    X X    X XXXXXX 
+  XXXXX XXXXXXXXX XXX X    X X    X X     
+  X               X X X XXXX XXXXXX XXXXXX
+  X XXXXXXXXXXX XXX X X X                X  
+  X X         X X   X XXXXXXXXXXXX XXXXXXX  
+  XWX         X X   X            X X   X X
+              X X   X XXXXXXXXXX X X   X X
+              X X   X X        X X X   X X
+  XXXXXXXXXXXXX XXXXX XXXXXXXXXX X XXXXX X
+  X                                      X
+  X XXXXXXXXXXX XXXXXXX XXXXXXXXXX XXXXXXX 
+  X X    XMX  X X     X X        X X      
+  X X    X X  X X  XXXX XXXXXXXXXX XXXXXXX
+  X XXXXXX X  X X  M                     X
+  X        X  X XXXXXXXXXXXXXXXXXXXXXXXX X
+  XXXXXXXXXX  X       W                X X
+              XXXXXXXXX                XEX
+>>> ================================ RESTART ================================
+>>> 
+Enter your name:JAne
+Welcome JAne!
+XXXXXXXXXXXXXXXXXXXXXXXXXXXXXX            
+s                            X            
+XXXXXXX XXXXXXXXXXXXXXXXXXXX X    XXXXXXXX
+      X X       XXXXXXX    X X    X      w
+      X X       X     X    X X    X XXXXXX 
+  XXXXX XXXXXXXXX XXX X    X X    X X     
+  X               X X X XXXX XXXXXX XXXXXX
+  X XXXXXXXXXXX XXX X X X                X  
+  X X         X X   X XXXXXXXXXXXX XXXXXXX  
+  XWX         X X   X            X X   X X
+              X X   X XXXXXXXXXX X X   X X
+              X X   X X        X X X   X X
+  XXXXXXXXXXXXX XXXXX XXXXXXXXXX X XXXXX X
+  X                                      X
+  X XXXXXXXXXXX XXXXXXX XXXXXXXXXX XXXXXXX 
+  X X    XMX  X X     X X        X X      
+  X X    X X  X X  XXXX XXXXXXXXXX XXXXXXX
+  X XXXXXX X  X X  M                     X
+  X        X  X XXXXXXXXXXXXXXXXXXXXXXXX X
+  XXXXXXXXXX  X       W                X X
+              XXXXXXXXX                XEX
+>>> ================================ RESTART ================================
+>>> 
+Enter your name:Sarah
+Welcome Sarah!
+XXXXXXXXXXXXXXXXXXXXXXXXXXXXXX            
+s                            X            
+XXXXXXX XXXXXXXXXXXXXXXXXXXX X    XXXXXXXX
+      X X       XXXXXXX    X X    X      w
+      X X       X     X    X X    X XXXXXX 
+  XXXXX XXXXXXXXX XXX X    X X    X X     
+  X               X X X XXXX XXXXXX XXXXXX
+  X XXXXXXXXXXX XXX X X X                X  
+  X X         X X   X XXXXXXXXXXXX XXXXXXX  
+  XWX         X X   X            X X   X X
+              X X   X XXXXXXXXXX X X   X X
+              X X   X X        X X X   X X
+  XXXXXXXXXXXXX XXXXX XXXXXXXXXX X XXXXX X
+  X                                      X
+  X XXXXXXXXXXX XXXXXXX XXXXXXXXXX XXXXXXX 
+  X X    XMX  X X     X X        X X      
+  X X    X X  X X  XXXX XXXXXXXXXX XXXXXXX
+  X XXXXXX X  X X  M                     X
+  X        X  X XXXXXXXXXXXXXXXXXXXXXXXX X
+  XXXXXXXXXX  X       W                X X
+              XXXXXXXXX                XEX
+>>> ================================ RESTART ================================
+>>> 
+Enter your name:Sarah
+Welcome Sarah!
+XXXXXXXXXXXXXXXXXXXXXXXXXXXXXX            
+s                            X            
+XXXXXXX XXXXXXXXXXXXXXXXXXXX X    XXXXXXXX
+      X X       XXXXXXX    X X    X      w
+      X X       X     X    X X    X XXXXXX 
+  XXXXX XXXXXXXXX XXX X    X X    X X     
+  X               X X X XXXX XXXXXX XXXXXX
+  X XXXXXXXXXXX XXX X X X                X  
+  X X         X X   X XXXXXXXXXXXX XXXXXXX  
+  XWX         X X   X            X X   X X
+              X X   X XXXXXXXXXX X X   X X
+              X X   X X        X X X   X X
+  XXXXXXXXXXXXX XXXXX XXXXXXXXXX X XXXXX X
+  X                                      X
+  X XXXXXXXXXXX XXXXXXX XXXXXXXXXX XXXXXXX 
+  X X    XMX  X X     X X        X X      
+  X X    X X  X X  XXXX XXXXXXXXXX XXXXXXX
+  X XXXXXX X  X X  M                     X
+  X        X  X XXXXXXXXXXXXXXXXXXXXXXXX X
+  XXXXXXXXXX  X       W                X X
+              XXXXXXXXX                XEX
+>>> for row in maze:
+	print(row)
+
+	
+XXXXXXXXXXXXXXXXXXXXXXXXXXXXXX            
+s                            X            
+XXXXXXX XXXXXXXXXXXXXXXXXXXX X    XXXXXXXX
+      X X       XXXXXXX    X X    X      w
+      X X       X     X    X X    X XXXXXX 
+  XXXXX XXXXXXXXX XXX X    X X    X X     
+  X               X X X XXXX XXXXXX XXXXXX
+  X XXXXXXXXXXX XXX X X X                X  
+  X X         X X   X XXXXXXXXXXXX XXXXXXX  
+  XWX         X X   X            X X   X X
+              X X   X XXXXXXXXXX X X   X X
+              X X   X X        X X X   X X
+  XXXXXXXXXXXXX XXXXX XXXXXXXXXX X XXXXX X
+  X                                      X
+  X XXXXXXXXXXX XXXXXXX XXXXXXXXXX XXXXXXX 
+  X X    XMX  X X     X X        X X      
+  X X    X X  X X  XXXX XXXXXXXXXX XXXXXXX
+  X XXXXXX X  X X  M                     X
+  X        X  X XXXXXXXXXXXXXXXXXXXXXXXX X
+  XXXXXXXXXX  X       W                X X
+              XXXXXXXXX                XEX
+>>> ================================ RESTART ================================
+>>> 
+Enter your name:jane
+Welcome jane!
+s                            X            
+>>> ================================ RESTART ================================
+>>> 
+Enter your name:jane
+Welcome jane!
+('s                            X            ', 1)
+>>> ================================ RESTART ================================
+>>> 
+Enter your name:bob
+Welcome bob!
+('s                            X            ', 1)
+0
+>>> ================================ RESTART ================================
+>>> 
+Enter your name:jane
+Welcome jane!
+('s                            X            ', 1, 0)
+>>> ================================ RESTART ================================
+>>> 
+Enter your name:jane
+Welcome jane!
+(1, 0)
+>>> ================================ RESTART ================================
+>>> 
+Enter your name:Sarah
+Welcome Sarah!
+>>> find_symbol("s")
+
+Traceback (most recent call last):
+  File "<pyshell#17>", line 1, in <module>
+    find_symbol("s")
+TypeError: find_symbol() takes no arguments (1 given)
+>>> find_symbol()
+
+Traceback (most recent call last):
+  File "<pyshell#18>", line 1, in <module>
+    find_symbol()
+  File "P:\gitprojects\mazerunner\maze.py", line 17, in find_symbol
+    if find_symbol in row:
+TypeError: 'in <string>' requires string as left operand, not function
+>>> ================================ RESTART ================================
+>>> 
+Enter your name:Sarah
+Welcome Sarah!
+>>> find_symbol()
+
+Traceback (most recent call last):
+  File "<pyshell#19>", line 1, in <module>
+    find_symbol()
+TypeError: find_symbol() takes exactly 1 argument (0 given)
+>>> find_symbol("s")
+(0, 0)
+>>> ================================ RESTART ================================
+>>> 
+Enter your name:Sarah
+Welcome Sarah!
+>>> find_symbol("s")
+(1, 0)
+>>> find_symbol("W')
+	    
+SyntaxError: EOL while scanning string literal
+>>> find_symbol("W")
+(9, 3)
+(18, 22)
+>>> ================================ RESTART ================================
+>>> 
+Enter your name:Sarah
+Welcome Sarah!
+>>> find_symbol("M")
+(15, 10)
+(16, 19)
+>>> find_symbol("S")
+(1, 0)
+>>> find_symbol("X")
+(0, 0)
+(0, 29)
+(0, 0)
+(0, 6)
+(0, 6)
+(0, 2)
+(0, 2)
+(0, 2)
+(0, 2)
+(0, 2)
+(0, 14)
+(0, 14)
+(0, 2)
+(0, 2)
+(0, 2)
+(0, 2)
+(0, 2)
+(0, 2)
+(0, 2)
+(0, 2)
+(0, 14)
+>>> find_symbol("E")
+(20, 40)
+>>> ================================ RESTART ================================
+>>> 
+Enter your name:jane
+Welcome jane!
+
+Traceback (most recent call last):
+  File "P:\gitprojects\mazerunner\maze.py", line 27, in <module>
+    start = find_symbol("S")
+  File "P:\gitprojects\mazerunner\maze.py", line 18, in find_symbol
+    if x in row:
+NameError: global name 'x' is not defined
+>>> ================================ RESTART ================================
+>>> 
+Enter your name:jane
+Welcome jane!
+[1, 0]
+>>> ================================ RESTART ================================
+>>> 
+Enter your name:jane
+Welcome jane!
+[1, 0]
+[20, 40]
+>>> ================================ RESTART ================================
+>>> 
+Enter your name:Sarah
+Welcome Sarah!
+[1, 0]
+>>> surroundings("S")
+
+Traceback (most recent call last):
+  File "<pyshell#28>", line 1, in <module>
+    surroundings("S")
+TypeError: surroundings() takes no arguments (1 given)
+>>> surroundings()
+
+Traceback (most recent call last):
+  File "<pyshell#29>", line 1, in <module>
+    surroundings()
+  File "P:\gitprojects\mazerunner\maze.py", line 24, in surroundings
+    for symbol in surroundings:
+TypeError: 'function' object is not iterable
+>>> surroundings[1,0]
+
+Traceback (most recent call last):
+  File "<pyshell#30>", line 1, in <module>
+    surroundings[1,0]
+TypeError: 'function' object is not subscriptable
+>>> ================================ RESTART ================================
+>>> 
+Enter your name:Sarah
+Welcome Sarah!
+[1, 0]
+>>> surroundings[]
+SyntaxError: invalid syntax
+>>> surroundings()
+
+Traceback (most recent call last):
+  File "<pyshell#32>", line 1, in <module>
+    surroundings()
+  File "P:\gitprojects\mazerunner\maze.py", line 25, in surroundings
+    return [symbol.find(row_coor)]
+NameError: global name 'symbol' is not defined
+>>> ================================ RESTART ================================
+>>> 
+Enter your name:sarh
+Welcome sarh!
+[1, 0]
+>>> surroundings()
+
+Traceback (most recent call last):
+  File "<pyshell#33>", line 1, in <module>
+    surroundings()
+  File "P:\gitprojects\mazerunner\maze.py", line 25, in surroundings
+    return [row.find(row_coor)]
+NameError: global name 'row' is not defined
+>>> ================================ RESTART ================================
+>>> 
+Enter your name:s
+Welcome s!
+[1, 0]
+>>> surroundingd()
+
+Traceback (most recent call last):
+  File "<pyshell#34>", line 1, in <module>
+    surroundingd()
+NameError: name 'surroundingd' is not defined
+>>> surroundings()
+
+Traceback (most recent call last):
+  File "<pyshell#35>", line 1, in <module>
+    surroundings()
+  File "P:\gitprojects\mazerunner\maze.py", line 25, in surroundings
+    if symbol in row:
+NameError: global name 'symbol' is not defined
+>>> ================================ RESTART ================================
+>>> 
+Enter your name:s
+Welcome s!
+[1, 0]
+>>> surroundings()
+
+Traceback (most recent call last):
+  File "<pyshell#36>", line 1, in <module>
+    surroundings()
+  File "P:\gitprojects\mazerunner\maze.py", line 25, in surroundings
+    if row_coor in row:
+NameError: global name 'row_coor' is not defined
+>>> ================================ RESTART ================================
+>>> 
+Enter your name:s
+Welcome s!
+[1, 0]
+>>> surroundings()
+
+Traceback (most recent call last):
+  File "<pyshell#37>", line 1, in <module>
+    surroundings()
+  File "P:\gitprojects\mazerunner\maze.py", line 27, in surroundings
+    if row_coor in row:
+TypeError: 'in <string>' requires string as left operand, not int
+>>> surroundings(1,0)
+
+Traceback (most recent call last):
+  File "<pyshell#38>", line 1, in <module>
+    surroundings(1,0)
+TypeError: surroundings() takes no arguments (2 given)
+>>> surroundings(1)
+
+Traceback (most recent call last):
+  File "<pyshell#39>", line 1, in <module>
+    surroundings(1)
+TypeError: surroundings() takes no arguments (1 given)
+>>> surroundings()
+
+Traceback (most recent call last):
+  File "<pyshell#40>", line 1, in <module>
+    surroundings()
+  File "P:\gitprojects\mazerunner\maze.py", line 27, in surroundings
+    if row_coor in row:
+TypeError: 'in <string>' requires string as left operand, not int
+>>> ================================ RESTART ================================
+>>> 
+Enter your name:s
+Welcome s!
+[1, 0]
+
+Traceback (most recent call last):
+  File "P:\gitprojects\mazerunner\maze.py", line 33, in <module>
+    surroundings(start)
+TypeError: surroundings() takes no arguments (1 given)
+>>> ================================ RESTART ================================
+>>> 
+Enter your name:s
+Welcome s!
+[1, 0]
+>>> surroundings
+<function surroundings at 0x02B115B0>
+>>> surroundings("S")
+
+Traceback (most recent call last):
+  File "<pyshell#42>", line 1, in <module>
+    surroundings("S")
+TypeError: surroundings() takes no arguments (1 given)
+>>> ================================ RESTART ================================
+>>> 
+Enter your name:s
+Welcome s!
+[1, 0]
+>>> 
+>>> surroundings()
+
+Traceback (most recent call last):
+  File "<pyshell#44>", line 1, in <module>
+    surroundings()
+TypeError: surroundings() takes exactly 1 argument (0 given)
+>>> surroundings(coor)
+
+Traceback (most recent call last):
+  File "<pyshell#45>", line 1, in <module>
+    surroundings(coor)
+NameError: name 'coor' is not defined
+>>> ================================ RESTART ================================
+>>> 
+Enter your name:ss
+Welcome ss!
+[1, 0]
+>>> surroundings(coor)
+
+Traceback (most recent call last):
+  File "<pyshell#46>", line 1, in <module>
+    surroundings(coor)
+NameError: name 'coor' is not defined
+>>> 

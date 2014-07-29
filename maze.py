@@ -11,11 +11,50 @@ def maze_player():
     maze_player = raw_input("Enter your name:")
     return maze_player
 
+def find_symbol(symbol):
+    """Finds start and end point"""
+    row_coor = 0
+    for row in maze:
+        if symbol in row:
+            return [row_coor, row.find(symbol)]
+        else:
+            row_coor += 1
+
+def get_symbol(coor, maze):
+    """Returns symbol at given coordinate"""
+    x, y = coor
+    if x < 0 or y < 0:
+        return "X"
+    else:
+        return maze[x][y]
+
+def surroundings(coor, maze):
+    """Returns surroundings"""
+    x, y = coor
+    surrounds = {'N': get_symbol([x-1, y], maze),
+                 'S': get_symbol([x+1, y], maze),
+                 'E': get_symbol([x, y+1], maze),
+                 'W': get_symbol([x, y-1], maze)}
+    return surrounds
+
+## Main
+
 maze = read_maze()
 player_name = maze_player()
 print("Welcome {}!".format(player_name))
-for line in maze:
-    print(line)
+player = find_symbol("P")
+print(player)
+print(surroundings(player, maze))
+
+
+##row_coor = 0
+##for row in maze:
+##    if "s" in row:
+##        print(row_coor, row.find("s"))
+##    else:
+##        row_coor += 1
+##
+##find_symbol("s") -> [1, 0]
 #if " " == W:
     #print "You fell in the water! Turn around!"
 #if " " == M:
@@ -25,4 +64,4 @@ for line in maze:
 #if " " == E:
     #print "You made it to the end of the maze!"
 
-#f.seek(0)
+
