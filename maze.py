@@ -16,12 +16,12 @@ def read_maze(maze_file='MAZE.txt'):
     return new_maze
 
 def maze_player():
-    """Navigates through maze"""
+    """Prompts player for his or her name"""
     maze_player = raw_input("Enter your name:")
     return maze_player
 
 def find_symbol(symbol):
-    """Finds start and end point"""
+    """Finds coordinates of symbols in maze"""
     row_coor = 0
     for row in maze:
         if symbol in row:
@@ -79,6 +79,10 @@ def player_move_choice(surrounds):
         elif player_move.upper() in ('N', 'E', 'S', 'W'):
             if surrounds[player_move.upper()] == 'X':
                 print("Your path is blocked by a wall! Choose another way.")
+            elif surrounds[player_move.upper()] == 'M':
+                print("There is a monster ahead!  Turn back the other way!")
+            elif surrounds[player_move.upper()] == 'W':
+                print("You fell some water and got all wet! Turn back the other way and dry off!")
             else:
                 print("Your path is blocked! Choose another way.")
         else:
@@ -116,8 +120,8 @@ while get_symbol(player_coor, maze) != 'E':
     move_direction = player_move_choice(surrounds)
     player_coor = move_player(move_direction, player_coor)
 stop = time.time()
-print("You escaped!")
-print("It took you {} to escape!".format(stop-start))
+print("You escaped the maze!")
+print("It took you {} seconds to escape finish the maze!".format(stop-start))
 
 ##row_coor = 0
 ##for row in maze:
